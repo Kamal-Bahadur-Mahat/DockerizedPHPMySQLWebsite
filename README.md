@@ -36,7 +36,7 @@ This repository contains the setup and files for a web application running on Do
    git clone https://github.com/yourusername/MyWebsiteWithDocker.git
 ### Build and run the containers using Docker Compose:**
     >cd MyWebsiteWithDocker
-    >docker-compose up --build
+    >docker-compose up -d
 ### Navagation:**
  After running the containers, the web application will be accessible at **http://localhost:80.** You can access phpMyAdmin at **http://localhost:8080** to manage your MySQL databases.
 
